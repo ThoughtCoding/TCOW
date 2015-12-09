@@ -1,7 +1,8 @@
 # TCOW
 Thought Coding Official Website
 
-<h3>名称：</h3>ThoughtCoding实验室官方网站（ThoughtCoding offical website）以下简称为TCOW项目。
+<h4>名称：</h4>
+ThoughtCoding实验室官方网站（ThoughtCoding offical website）以下简称为TCOW项目。
 
 项目简介：随着实验室日益壮大，各项工作逐渐走上正轨，实验室的规模越来越大。但是实验室和外界的信息沟通渠道极为匮乏，对于实验室急需一个信息展示平台，作为实验室对外的窗口。对于广大学生和老师，也急需一个官方渠道来了解实验室的情况和最新动态。于是TCOW项目应运而生。
 
