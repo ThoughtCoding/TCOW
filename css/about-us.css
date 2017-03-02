@@ -1,45 +1,54 @@
 @charset "utf-8";
 
+
 body {
-	margin-top: 60px;
 	color: #212121;
 	font-family:Arial,'微软雅黑';
 	font-size: 14px;
 	font-color:white;
-	background: #EDEFF0;
+	background:#EDEFF0;
 	background-size:cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow-y:scroll;
 }
+
 /*-------------------------------header------------------------------------*/
-header{
-	position: fixed;
-	top: 0px;
+
+/*-------------------------------mainbody------------------------------------*/
+.mainbody{
+	width: 70%;
+	margin:0 auto;	
+	margin-top: 75px;
+	margin-left: 250px;
+}
+.mainbody .img .img_{
+	float: left;
+	height: 283px;
+	width: 279px;
+	margin: 1px;
+	opacity: 0.61;
+	fliter:alpha(opacity:61);
+}
+.mainbody a{ 
+	color:#458aae;
+}
+.mainbody .panel a:link{
+	text-decoration: none;
+}
+.img_ img{
 	width: 100%;
-	height: 50px;
-	text-align: middle;
-	margin: 0px;
-	background-color: white;
-	z-index: 1;
+	height: 100%;
 }
 
-.nav>li>a{
-	padding: 15px 35px;
-}
-.navbar .nav > li .dropdown-menu {
-margin: 0;
-}
-.navbar .nav > li:hover .dropdown-menu {
-display: block;
-}
-
-
-/*---------------------------------footer------------------------------------*/
+/*-------------------------------footer------------------------*/
 footer{
 	background-color: white;
+	margin: 10px auto;
 }
 
 footer .container{
 	width: 80%;
-	margin: 10px auto 0 auto;
 }
 
 
@@ -61,7 +70,7 @@ footer .container{
 
 .container-fluid .row .col-md-2 >a{
 	margin: 15px 10px;
-        float: left;
+  float: left;
 }
 .github{
 	width: 24px;
@@ -92,4 +101,14 @@ footer .container{
 
 .btn{
 	margin-top: 10px;
+}
+/*-------------------------------media------------------------*/
+@media screen and (max-width: 768px) {
+   .mainbody{
+   	width: 100%;
+   	margin-left: 0px;
+   }
+   .mainbody .row .tab_content{
+   	width: 100%;
+  }
 }
